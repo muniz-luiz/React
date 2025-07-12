@@ -1,4 +1,12 @@
-import './styles/global.scss';
+import { Counter } from "./components/Counter";
+import { RepositoryList } from "./components/RepositoryList";
+import "./styles/global.scss";
+
 export default function App() {
-  return <h1>Oi eu sou Luiz</h1>;
+  return (
+    <>
+      <RepositoryList />
+      <Counter />
+    </>
+  );
 }
